@@ -23,6 +23,12 @@
 | MCP 法器對接 | Slack、GitHub、Database 等 MCP server 整合指引 |
 | Agent SDK 科儀 | Python / TypeScript SDK 編排模板 |
 | Hooks 連動 | 自動試煉、禁制守護、收壇通報等 hooks 配置 |
+| 天條戒律 | 三層戒律體系（天條/職律/壇律）+ 豁免機制 + 違規奏摺 |
+| 加持符系統 | 6 道獨立加持（自省/通報/靜心/結界/金剛戒/天眼通）+ 相生相剋表 |
+| 功過格 | 召喚記錄、五維度考核評分、科儀總結、月報統計 |
+| 演法壇 | Mock 資料乾跑科儀，驗證壇位銜接，支援局部演法 |
+| 法會錄 | 科儀結束後自動生成 post-mortem 報告 |
+| 傳承譜系 | 母符/子符繼承機制，減少重複，統一門規 |
 
 ## 安裝
 
@@ -71,7 +77,7 @@ files_dao/
 ├── README.md                  ← 中文說明（本檔）
 ├── README.en.md               ← English README
 ├── install.sh                 ← 安裝腳本（支援語言選擇）
-├── zh/                        ← 中文版
+├── zh/                        ← 中文版（14 檔）
 │   ├── SKILL.md               ← Skill 主檔
 │   ├── talismans.md           ← 六大符籙模板
 │   ├── rituals.md             ← 六大基礎科儀
@@ -79,16 +85,15 @@ files_dao/
 │   ├── linting.md             ← 符籙驗證規則
 │   ├── advanced-rituals.md    ← 進階科儀
 │   ├── integrations.md        ← 法器對接
-│   └── estimation.md          ← 法力估算
-├── en/                        ← English version
-│   ├── SKILL.md
-│   ├── talismans.md
-│   ├── rituals.md
-│   ├── library.md
-│   ├── linting.md
-│   ├── advanced-rituals.md
-│   ├── integrations.md
-│   └── estimation.md
+│   ├── estimation.md          ← 法力估算
+│   ├── commandments.md        ← 天條戒律
+│   ├── enhancements.md        ← 加持符系統 + 相生相剋表
+│   ├── merit-record.md        ← 功過格
+│   ├── simulator.md           ← 演法壇
+│   ├── postmortem.md          ← 法會錄
+│   └── inheritance.md         ← 傳承譜系
+├── en/                        ← English version（14 檔）
+│   └── (same structure)
 └── daoist-agent.skill         ← 打包檔
 ```
 

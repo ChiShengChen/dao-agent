@@ -23,6 +23,12 @@ A Daoist priest draws talismans to command celestial soldiers; a developer write
 | MCP Integration | Guides for Slack, GitHub, Database and other MCP servers |
 | Agent SDK Rituals | Python / TypeScript SDK orchestration templates |
 | Hooks Integration | Auto-test, constraint enforcement, completion notification hooks |
+| Commandment System | 3-layer constraints (Universal/Role/Ceremony) + exemptions + violation reports |
+| Enhancement Modules | 6 composable spells (Self-Check/Progress/Meditation/Sandbox/Strict/Verbose) + compatibility matrix |
+| Merit & Demerit Record | Invocation audit, 5-dimension scoring, ceremony summary, monthly dashboard |
+| Ritual Simulator | Dry run with mock data, verify connections, supports partial rehearsal |
+| Ceremony Record | Auto-generated post-mortem reports after complex rituals |
+| Template Inheritance | Parent/child talisman system, reduce duplication, enforce shared conventions |
 
 ## Installation
 

@@ -290,6 +290,56 @@ Refer to `integrations.md` for external system integration:
 - **Agent SDK Rituals**: Programmatic orchestration with Python/TypeScript SDK
 - **Hooks Integration**: Auto-test, constraint enforcement, completion notification hooks
 
+### Heavenly Commandments
+
+Refer to `commandments.md` for the unified constraint system:
+- **Universal Commandments**: 8 rules all agents must obey, including 2 unpardonable rules
+- **Role Commandments**: Additional constraints specific to each agent type
+- **Ceremony Commandments**: Temporary constraints for specific rituals
+- **Exemption Mechanism**: Priest can exempt specific rules (except unpardonable ones)
+
+### Enhancement Module System
+
+Refer to `enhancements.md` for six composable enhancement spells:
+- **Self-Reflection Spell**: Auto-verify output after completion
+- **Progress Report Spell**: Multi-step progress reporting
+- **Meditation Spell**: Deliberate before acting at critical decisions
+- **Sandbox Spell**: Restrict path, tool, and network access
+- **Strict Mode**: Halt immediately on any error
+- **Verbose Log**: Detailed operation logging
+- Includes **Compatibility Matrix** — which enhancements stack well, which conflict
+
+### Merit & Demerit Record
+
+Refer to `merit-record.md` for audit and scoring:
+- **Invocation Log**: Complete record of every agent decree
+- **Performance Scoring**: 5-dimension scoring (mission/efficiency/quality/compliance/error handling)
+- **Ceremony Summary**: Post-ceremony scorecard for all agents
+- **Monthly Dashboard**: Long-term trend tracking
+
+### Ritual Simulator (Dry Run)
+
+Refer to `simulator.md` for pre-production rehearsal:
+- Walk through the full ritual with mock data
+- Verify altar connections and data format compatibility
+- Measure duration and token consumption estimates
+- Supports partial rehearsal (test specific connections only)
+
+### Ceremony Record (Post-mortem)
+
+Refer to `postmortem.md` for post-ceremony review:
+- Mission completion rate, position timeline, tribulation log
+- Degradation log, checkpoint log, token accounting
+- Lessons learned and improvement suggestions
+
+### Template Inheritance (Lineage System)
+
+Refer to `inheritance.md` for talisman inheritance:
+- **Parent Talisman**: Define project-level shared settings (altar, commandments, style, sandbox)
+- **Child Talisman**: Write only differences, inherit everything else
+- Security only increases — children can add commandments, never remove
+- Maximum 3 inheritance levels (grandparent → parent → child)
+
 Fundamental Laws of Ritual:
 - Each general holds only one duty (each has a mission, none may overstep)
 - Generals communicate through altar artifacts (filesystem), never by direct telepathy
