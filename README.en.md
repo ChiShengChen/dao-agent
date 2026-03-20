@@ -1,10 +1,58 @@
 # Daoist Talismans ── Claude Code Agent Prompt Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.com/claude-code)
+[![Language](https://img.shields.io/badge/Language-中文%20%7C%20English-blue)](README.md)
+
 > [中文](README.md)
 
 Generate agent prompts for Claude Code using the metaphor of Daoist ritual arts.
 
 A Daoist priest draws talismans to command celestial soldiers; a developer writes prompts to drive agents.
+
+---
+
+## 30-Second Quick Start
+
+```bash
+# 1. Install
+git clone https://github.com/ChiShengChen/dao-agent.git
+cd dao-agent
+bash install.sh --lang en
+
+# 2. In Claude Code, just say
+> Decree a Builder general to add CRUD endpoints for /src/api/users
+```
+
+That's it. The skill auto-generates a structured agent prompt with role, steps, constraints, and output spec.
+
+---
+
+## Comparison with Shikigami
+
+Both are East-Asian mythology-themed Claude Code Skills. Here's a feature comparison:
+
+| Feature | Daoist Talismans (dao-agent) | [Shikigami](https://github.com/ChiShengChen/shikigami) |
+|---------|:---:|:---:|
+| Agent Templates | 6 types | 6 types |
+| Multi-Agent Rituals | 6 base + 3 advanced | 5 types |
+| Ready-made Library | 7 prompts | — |
+| Prompt Linting | 15 rules | — |
+| Token Estimation | Formulas + cheat sheet | 4-tier power system |
+| Diagnosis Mode | Interactive recommendation | — |
+| Workflow Diagrams | ASCII + Mermaid | Mermaid |
+| Constraint System | 3-layer + exemptions + reports | 8 rules + exemptions |
+| Enhancement Modules | 6 spells + compatibility matrix | 6 spells + incompatibility flags |
+| Audit / Scoring | 5-dimension + monthly dashboard | Invocation log |
+| Dry Run Simulator | Full + partial | — |
+| Post-mortem | Auto ceremony record | — |
+| Template Inheritance | Parent/child, 3 levels | — |
+| MCP Integration Guide | 6 tool categories | — |
+| Agent SDK Templates | Python + TypeScript | — |
+| Hooks Integration | 4 configurations | — |
+| Bilingual | ✅ | ✅ |
+
+Both projects complement each other — pick the cultural flavor you prefer.
 
 ---
 

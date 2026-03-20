@@ -1,10 +1,58 @@
 # 道法符籙 ── Claude Code Agent Prompt Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.com/claude-code)
+[![Language](https://img.shields.io/badge/語言-中文%20%7C%20English-blue)](README.en.md)
+
 > [English](README.en.md)
 
 以道教科儀之法，為 Claude Code 生成 agent prompt。
 
 道士書符以敕令天兵；開發者撰 prompt 以驅動 agent。
+
+---
+
+## 30 秒快速開始
+
+```bash
+# 1. 安裝
+git clone https://github.com/ChiShengChen/dao-agent.git
+cd dao-agent
+bash install.sh
+
+# 2. 在 Claude Code 中直接說
+> 幫我敕令一位造化真人，為 /src/api/users 新增 CRUD endpoints
+```
+
+就這樣。Skill 會自動生成結構化的 agent prompt，包含角色、步驟、禁制、輸出規格。
+
+---
+
+## 與 Shikigami 功能對照
+
+同為東方神話主題的 Claude Code Skill，以下是功能對比：
+
+| 功能 | 道法符籙 (dao-agent) | [式神 (shikigami)](https://github.com/ChiShengChen/shikigami) |
+|------|:---:|:---:|
+| Agent 模板 | 6 種 | 6 種 |
+| 多 Agent 科儀 | 6 基礎 + 3 進階 | 5 種 |
+| 現成符籙庫 | 7 道 | — |
+| Prompt Linting | 15 條規則 | — |
+| Token 估算 | 公式 + 口訣 | 4 級法力分類 |
+| 問診模式 | 互動推薦 | — |
+| 科儀圖譜 | ASCII + Mermaid | Mermaid |
+| 戒律系統 | 3 層 + 豁免 + 奏摺 | 8 條 + 豁免 |
+| 加持模組 | 6 道 + 相剋表 | 6 道 + 不相容標記 |
+| 審計/考核 | 5 維度 + 月報 | 召喚記錄 |
+| Dry Run 模擬 | 完整 + 局部 | — |
+| Post-mortem | 自動法會錄 | — |
+| 符籙繼承 | 母符/子符 3 層 | — |
+| MCP 整合指引 | 6 類法器 | — |
+| Agent SDK 模板 | Python + TS | — |
+| Hooks 連動 | 4 種配置 | — |
+| 中英雙語 | ✅ | ✅ |
+
+兩者可互補參考，選擇你喜歡的文化風味。
 
 ---
 
